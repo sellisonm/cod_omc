@@ -7,12 +7,12 @@ before_install:
   - chmod +x ./deploy/frontend.sh  
   - chmod +x ./deploy/functions.sh
   - pip install --user awscli
-  
+
 jobs:
   include:
     - stage: deploy_frontend
       script: ./deploy/frontend.sh
-      after_succes:
+      after_success:
         - pwd
         - ls
         - aws s3 sync dist s3://cod-omc-sellison/cod-omc
