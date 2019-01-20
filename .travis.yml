@@ -15,6 +15,7 @@ jobs:
       after_success:
         - pwd
         - ls
-        - aws s3 sync dist s3://cod-omc-sellison/cod-omc
+        - aws s3 sync dist s3://mlb-stats-sellison/cod
     - stage: deploy_functions
       script: ./deploy/functions.sh
+            
