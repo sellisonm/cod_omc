@@ -13,7 +13,7 @@ import TournamentsPage from '@/pages/Tournaments/Tournaments';
 Vue.use(Router);
 
 export default new Router({
-    mode: 'history',
+    
     routes: [
       {
         path: '/login',
