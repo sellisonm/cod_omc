@@ -12,7 +12,8 @@
   "dependencies": {
     "bootstrap-vue": "^2.0.0-rc.11",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.2"
+    "vue-router": "^3.0.2",
+    "vuedraggable": "^2.17.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
